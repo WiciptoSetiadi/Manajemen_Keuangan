@@ -27,16 +27,16 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index']);
 
     // Transactions
-    Route::apiResource('transactions', TransactionController::class);
+    Route::apiResource('transactions', TransactionController::class)->names('api.transactions');
 
     // Categories
     Route::get('/categories', [CategoryController::class, 'index']);
 
     // Budgets
-    Route::apiResource('budgets', BudgetController::class);
+    Route::apiResource('budgets', BudgetController::class)->names('api.budgets');
 
     // Savings Goals
-    Route::apiResource('savings-goals', SavingsGoalController::class);
+    Route::apiResource('savings-goals', SavingsGoalController::class)->names('api.savings-goals');
 
     // Notifications
     Route::get('/notifications', [NotificationController::class, 'index']);
