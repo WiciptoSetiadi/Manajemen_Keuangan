@@ -34,12 +34,12 @@ Laravel backend bertindak sebagai penyedia web dashboard sekaligus API server un
    *(Seeder otomatis membuat akun user bawaan dan kategori)*.
 
 #### 2. Menjalankan Server Backend
-Agar server Laravel dapat diakses oleh aplikasi Flutter (baik lewat emulator maupun HP fisik di jaringan LAN yang sama), jalankan server dengan binding IP lokal komputer Anda atau `0.0.0.0`:
+
 
 1. Cari tahu IP lokal komputer Anda menggunakan `ipconfig` di command prompt (misal: `192.168.1.10`).
 2. Jalankan Laravel server menggunakan host IP tersebut:
    ```bash
-   php artisan serve --host=0.0.0.0 --port=8000
+   php artisan serve 
    ```
 3. Di terminal terpisah, jalankan Vite untuk aset web:
    ```bash
