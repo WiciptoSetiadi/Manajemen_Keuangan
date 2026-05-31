@@ -1,7 +1,6 @@
 # Smart Expense
 
-A full-stack financial management solution featuring a modern Laravel web application (Livewire/Volt/Filament Admin) and a companion Flutter mobile app with premium UI & dark mode.
-
+A full-stack financial management solution featuring a modern Laravel web application (Livewire) 
 ---
 
 ## 🚀 Panduan Menjalankan Sistem
